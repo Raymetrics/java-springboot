@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @RequestMapping(value = "/")
     public String landing(){
-        return "Spring boot Gradle Example";
+        return "I Love you Eunji ^_____^";
     }
     
     @RequestMapping(value = "hello")
     public String hello(){
-        return "Spring boot Gradle Example";
+        return "뚜기야 사랑해 ^_____^";
     }
 }
