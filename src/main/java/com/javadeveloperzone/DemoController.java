@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @RequestMapping(value = "/")
     public String landing(){
-        return "I Love you Eunji ^_____^";
+        return "Raymetrics website preparing...";
     }
     
     @RequestMapping(value = "hello")
     public String hello(){
-        return "뚜기야 사랑해 ^_____^";
+        return "Raymetrics website preparing...";
     }
 }
